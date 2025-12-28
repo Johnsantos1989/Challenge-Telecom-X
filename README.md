@@ -7,11 +7,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
-
-📧 [E-mail](mailto:johnlenon8919@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/analistafinanceiro-powerbi)  
-🐙 [GitHub](https://github.com/Johnsantos1989)
-
 ---
 
 ## 🧠 Objetivo do Projeto
@@ -110,3 +105,13 @@ Projeto_EDA_TelecomX/
 ├─ reports/           # Relatórios em Markdown/HTML
 ├─ README.md          # Documentação principal
 └─ requirements.txt   # Dependências do projeto
+
+👨🏻‍🦱 Autor
+
+John Lenon Nogueira
+
+📧 E-mail
+
+🔗 LinkedIn
+
+🐙 GitHub
