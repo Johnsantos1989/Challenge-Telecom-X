@@ -56,20 +56,20 @@ O objetivo da análise é entender quais características impactam o churn, cons
 ## 📊 Principais Visualizações e Resultados
 
 ### 1️⃣ Proporção Geral de Churn
-**Taxa de churn geral:** ~`{churn_pct_cancelados:.2f}%`  
+**Taxa de churn geral:** ~26.54%  
 **Insight:** A evasão representa um problema relevante, impactando receita e retenção.
 
 ### 2️⃣ Churn por Tipo de Contrato
-**Contrato com maior churn:** `{contrato_maior_churn}` (`{valor_maior_churn:.2f}%`)  
+**Contrato com maior churn:** Mensal (45.32%)  
 **Insight:** Contratos de curto prazo apresentam maior risco de cancelamento.
 
 ### 3️⃣ Churn vs Serviços de Suporte
-**Serviço com maior impacto:** `{servico_maior_risco}` (diferença de `{valor_maior_risco:.2f}%` entre cancelados e ativos)  
+**Serviço com maior impacto:** TechSupport (diferença de 18.70% entre cancelados e ativos)  
 **Insight:** A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
 
 ### 4️⃣ Churn vs Cobrança Mensal
-- Clientes que cancelaram: R$ `{media_cancel:.2f}`  
-- Clientes que permaneceram: R$ `{media_perm:.2f}`  
+- Clientes que cancelaram: R$ 85.40  
+- Clientes que permaneceram: R$ 65.20  
 **Insight:** Cobranças mais altas podem contribuir para a evasão.
 
 ---
