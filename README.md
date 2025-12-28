@@ -1,108 +1,101 @@
-📊 Projeto de Análise Exploratória de Dados (EDA) – Telecom X
+# 📊 Projeto de Análise Exploratória de Dados (EDA) – Telecom X
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
 
-📧 E-mail: johnlenon8919@gmail.com
+📧 [E-mail](mailto:johnlenon8919@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/analistafinanceiro-powerbi)  
+🐙 [GitHub](https://github.com/Johnsantos1989)
 
-🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
-🐙 GitHub: github.com/Johnsantos1989
+---
 
-Python | Pandas | Matplotlib | Jupyter | Licença
+## 🧠 Objetivo do Projeto
 
-🧠 Objetivo do Projeto
-
-A Telecom X enfrenta um alto índice de cancelamentos e deseja identificar os fatores que levam os clientes a encerrar seus serviços.
+A Telecom X enfrenta um alto índice de cancelamentos e deseja identificar os fatores que levam os clientes a encerrar seus serviços.  
 O objetivo da análise é entender quais características impactam o churn, considerando:
 
-💰 Cobrança mensal e total
-⭐ Tipo de contrato e fidelização
-🛠 Serviços de suporte contratados
-📈 Relação entre cobrança, serviços e evasão
-📊 Visualizações estratégicas para tomada de decisão
+- 💰 Cobrança mensal e total  
+- ⭐ Tipo de contrato e fidelização  
+- 🛠 Serviços de suporte contratados  
+- 📈 Relação entre cobrança, serviços e evasão  
+- 📊 Visualizações estratégicas para tomada de decisão  
 
-🧩 Etapas da Análise
+---
 
-🔹 1. Coleta e Consolidação dos Dados
-Dados importados de uma API JSON e convertidos em DataFrame do Pandas.
+## 🧩 Etapas da Análise
 
-🔹 2. Limpeza e Transformação
+### 🔹 1. Coleta e Consolidação dos Dados
+- Dados importados de uma API JSON e convertidos em DataFrame do Pandas.
 
-Remoção de registros vazios
+### 🔹 2. Limpeza e Transformação
+- Remoção de registros vazios  
+- Conversão de colunas para tipos numéricos  
+- Mapeamento de respostas Yes/No para 1/0  
+- Criação de métricas derivadas, como cobrança diária
 
-Conversão de colunas para tipos numéricos
+### 🔹 3. Análise Exploratória (EDA)
+- Proporção geral de churn  
+- Taxa média de churn por tipo de contrato  
+- Churn por serviços de suporte  
+- Relação entre cobrança mensal e churn
 
-Mapeamento de respostas Yes/No para 1/0
+### 🔹 4. Visualizações Estratégicas
+- Gráficos de barras, rosca e boxplots para insights claros  
+- Destaque para clientes com maior risco de cancelamento
 
-Criação de métricas derivadas, como cobrança diária
+### 🔹 5. Relatórios Automáticos
+- Resumo de métricas e insights principais gerado em Markdown  
+- Identificação de pontos críticos para retenção de clientes
 
-🔹 3. Análise Exploratória (EDA)
+---
 
-Proporção geral de churn
+## 📊 Principais Visualizações e Resultados
 
-Taxa média de churn por tipo de contrato
+### 1️⃣ Proporção Geral de Churn
+**Taxa de churn geral:** ~`{churn_pct_cancelados:.2f}%`  
+**Insight:** A evasão representa um problema relevante, impactando receita e retenção.
 
-Churn por serviços de suporte
+### 2️⃣ Churn por Tipo de Contrato
+**Contrato com maior churn:** `{contrato_maior_churn}` (`{valor_maior_churn:.2f}%`)  
+**Insight:** Contratos de curto prazo apresentam maior risco de cancelamento.
 
-Relação entre cobrança mensal e churn
+### 3️⃣ Churn vs Serviços de Suporte
+**Serviço com maior impacto:** `{servico_maior_risco}` (diferença de `{valor_maior_risco:.2f}%` entre cancelados e ativos)  
+**Insight:** A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
 
-🔹 4. Visualizações Estratégicas
+### 4️⃣ Churn vs Cobrança Mensal
+- Clientes que cancelaram: R$ `{media_cancel:.2f}`  
+- Clientes que permaneceram: R$ `{media_perm:.2f}`  
+**Insight:** Cobranças mais altas podem contribuir para a evasão.
 
-Gráficos de barras, rosca e boxplots para insights claros
+---
 
-Destaque para clientes com maior risco de cancelamento
+## 🎯 Conclusão
 
-🔹 5. Relatórios Automáticos
+A análise permite decisões estratégicas para reduzir churn, garantindo:  
+✅ Maior retenção de clientes  
+✅ Identificação de serviços críticos  
+✅ Ajustes de cobrança e contratos estratégicos  
 
-Resumo de métricas e insights principais gerado em Markdown
-
-Identificação de pontos críticos para retenção de clientes
-
-📊 Principais Visualizações e Resultados
-1️⃣ Proporção Geral de Churn
-
-Taxa de churn geral: ~{churn_pct_cancelados:.2f}%
-
-Insight: A evasão representa um problema relevante, impactando receita e retenção.
-
-2️⃣ Churn por Tipo de Contrato
-
-Contrato com maior churn: {contrato_maior_churn} ({valor_maior_churn:.2f}%)
-
-Insight: Contratos de curto prazo apresentam maior risco de cancelamento.
-
-3️⃣ Churn vs Serviços de Suporte
-
-Serviço com maior impacto: {servico_maior_risco} (diferença de {valor_maior_risco:.2f}% entre cancelados e ativos)
-
-Insight: A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
-
-4️⃣ Churn vs Cobrança Mensal
-
-Clientes que cancelaram: R$ {media_cancel:.2f}
-
-Clientes que permaneceram: R$ {media_perm:.2f}
-
-Insight: Cobranças mais altas podem contribuir para a evasão.
-
-🎯 Conclusão
-
-A análise permite decisões estratégicas para reduzir churn, garantindo:
-✅ Maior retenção de clientes
-✅ Identificação de serviços críticos
-✅ Ajustes de cobrança e contratos estratégicos
-
-📉 Recomendação final: priorizar clientes e serviços com maior risco de churn.
+📉 **Recomendação final:** priorizar clientes e serviços com maior risco de churn.  
 💹 Foco em contratos de longo prazo e melhoria de serviços de suporte.
 
-🧰 Tecnologias Utilizadas
-Ferramenta	Função
-🐍 Python 3	Linguagem principal
-📦 Pandas	Manipulação e análise de dados
-📈 Matplotlib	Criação de gráficos e visualizações
-🧮 Jupyter Notebook	Ambiente interativo de desenvolvimento
-🧾 IPython.display	Geração automática do relatório final
-📂 Estrutura do Projeto
-/notebooks       - Notebooks com análise exploratória
-/data            - Dados coletados via API
-/figures         - Gráficos e visualizações
-README.md        - Este arquivo
+---
+
+## 🧰 Tecnologias Utilizadas
+
+| Ferramenta         | Função                           |
+|--------------------|----------------------------------|
+| 🐍 Python 3         | Linguagem principal              |
+| 📦 Pandas           | Manipulação e análise de dados   |
+| 📈 Matplotlib       | Criação de gráficos              |
+| 🧮 Jupyter Notebook | Ambiente interativo de análise   |
+| 🧾 IPython.display  | Geração automática de relatórios |
+
+---
+
+## 📂 Estrutura do Projeto
