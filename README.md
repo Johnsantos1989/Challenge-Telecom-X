@@ -3,6 +3,7 @@
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
 
 📧 E-mail: johnlenon8919@gmail.com
+
 🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
 🐙 GitHub: github.com/Johnsantos1989
 
@@ -56,13 +57,33 @@ Resumo de métricas e insights principais gerado em Markdown
 
 Identificação de pontos críticos para retenção de clientes
 
-📊 Principais Resultados
-Indicador	Descrição
-💰 Cobrança Mensal	Clientes que cancelaram pagam, em média, mais que os que permaneceram
-⭐ Tipo de Contrato	Contratos de curto prazo apresentam maior taxa de churn
-🛠 Serviços de Suporte	Serviço {servico_maior_risco} apresenta maior impacto na evasão
-📈 Proporção Geral	Taxa de churn geral: ~{churn_pct_cancelados:.2f}%
-⚠️ Recomendação	Focar em retenção de contratos de curto prazo e serviços críticos
+📊 Principais Visualizações e Resultados
+1️⃣ Proporção Geral de Churn
+
+Taxa de churn geral: ~{churn_pct_cancelados:.2f}%
+
+Insight: A evasão representa um problema relevante, impactando receita e retenção.
+
+2️⃣ Churn por Tipo de Contrato
+
+Contrato com maior churn: {contrato_maior_churn} ({valor_maior_churn:.2f}%)
+
+Insight: Contratos de curto prazo apresentam maior risco de cancelamento.
+
+3️⃣ Churn vs Serviços de Suporte
+
+Serviço com maior impacto: {servico_maior_risco} (diferença de {valor_maior_risco:.2f}% entre cancelados e ativos)
+
+Insight: A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
+
+4️⃣ Churn vs Cobrança Mensal
+
+Clientes que cancelaram: R$ {media_cancel:.2f}
+
+Clientes que permaneceram: R$ {media_perm:.2f}
+
+Insight: Cobranças mais altas podem contribuir para a evasão.
+
 🎯 Conclusão
 
 A análise permite decisões estratégicas para reduzir churn, garantindo:
