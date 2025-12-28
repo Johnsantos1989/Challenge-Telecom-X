@@ -1,70 +1,69 @@
-# Telecom X – Análise de Evasão de Clientes (Churn)
-### Descrição do Projeto
+🚀 Telecom X – Análise de Evasão de Clientes (Churn)
+📌 Descrição do Projeto
 
-Este projeto tem como objetivo analisar a evasão de clientes da Telecom X, identificando fatores que levam ao churn (cancelamento de serviços).
-A partir da análise exploratória de dados (EDA), geramos insights estratégicos que podem ser utilizados para criar modelos preditivos e desenvolver ações de retenção de clientes.
-O que foi feito
+Este projeto tem como objetivo analisar a evasão de clientes da Telecom X, identificando os principais fatores que levam ao churn (cancelamento de serviços).
+A partir da Análise Exploratória de Dados (EDA), geramos insights estratégicos que podem apoiar a criação de modelos preditivos e o desenvolvimento de ações eficazes de retenção de clientes.
 
-✅ Coleta de dados via API (requests) e transformação em DataFrame (pandas).
+🎯 Objetivos da Análise
 
-✅ Limpeza de dados, tratamento de valores nulos e conversão de tipos.
+Coletar e tratar dados via API (requests) e pandas.
 
-✅ Criação de métricas e colunas derivadas (ex.: cobrança diária).
+Aplicar técnicas de ETL para limpeza e transformação dos dados.
 
-✅ Mapeamento de colunas categóricas (Yes/No → 1/0).
+Mapear dados categóricos (Yes/No → 1/0) e tratar valores nulos.
 
-✅ Análise exploratória (EDA) com estatísticas descritivas.
+Criar métricas derivadas (ex.: cobrança diária).
 
-✅ Visualizações estratégicas (matplotlib, gráficos de barras, rosca, boxplots).
+Realizar visualizações estratégicas com gráficos de barras, rosca e boxplots.
 
-✅ Identificação de padrões e insights relacionados a churn.
+Gerar insights acionáveis para reduzir churn e aumentar a retenção.
 
-Principais Insights
+📊 Principais Insights
 1️⃣ Proporção Geral de Churn
 
 Taxa de churn: ~{churn_pct_cancelados:.2f}%
 
-Insight: A evasão representa um problema relevante, impactando receita e retenção.
+Insight: A evasão representa um problema relevante para receita e retenção.
 
 2️⃣ Churn por Tipo de Contrato
 
 Contrato com maior churn: {contrato_maior_churn} ({valor_maior_churn:.2f}%)
 
-Insight: Contratos de curto prazo apresentam menor fidelização e maior risco de cancelamento.
+Insight: Contratos de curto prazo têm menor fidelização e maior risco de cancelamento.
 
 3️⃣ Churn vs Serviços de Suporte
 
 Serviço com maior impacto: {servico_maior_risco} (diferença de {valor_maior_risco:.2f}% entre cancelados e ativos)
 
-Insight: A ausência ou baixo valor percebido desse serviço aumenta a probabilidade de churn.
+Insight: A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
 
 4️⃣ Churn vs Cobrança Mensal
 
-Clientes que cancelaram pagam, em média: R$ {media_cancel:.2f}
+Clientes que cancelaram: R$ {media_cancel:.2f}
 
 Clientes que permaneceram: R$ {media_perm:.2f}
 
-Insight: Valores mais altos de cobrança mensal podem contribuir para o churn.
+Insight: Cobranças mais altas podem contribuir para a evasão.
 
-Ferramentas e Bibliotecas Utilizadas
+🛠 Ferramentas e Bibliotecas
 
 Python
 
-Pandas, NumPy
+pandas, numpy
 
-Matplotlib, Seaborn
+matplotlib, seaborn
 
-Requests
+requests
 
-IPython.display (para exibir relatórios e markdown)
+IPython.display (para exibir relatórios e Markdown)
 
-Estrutura do Repositório
+📂 Estrutura do Repositório
 /notebooks       - Notebooks com análise exploratória
 /data            - Dados coletados via API
 /figures         - Gráficos e visualizações
 README.md        - Este arquivo
 
-Como Usar
+💻 Como Usar
 
 Clone o repositório:
 
@@ -75,13 +74,15 @@ Abra o notebook no Google Colab.
 
 Execute as células para reproduzir a análise e visualizar os gráficos.
 
-Próximos Passos
+🚀 Próximos Passos
 
-Desenvolver modelos preditivos de churn utilizando as variáveis identificadas.
+Criar modelos preditivos de churn com base nas variáveis identificadas.
 
-Criar estratégias de retenção focadas em contratos de curto prazo e serviços críticos.
+Desenvolver estratégias de retenção focadas em contratos de curto prazo e serviços críticos.
 
-Ajustar preços ou benefícios para reduzir churn relacionado a cobranças mais altas.
+Ajustar preços ou benefícios para reduzir churn associado a cobranças mais altas.
 
-✅ Autor: John Lenon Nogueira
+✅ Autor
+
+John Lenon Nogueira
 📅 Data: 2025
