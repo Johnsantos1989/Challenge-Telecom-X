@@ -93,8 +93,9 @@ A análise permite decisões estratégicas para reduzir churn, garantindo:
 |--------------------|----------------------------------|
 | 🐍 Python 3         | Linguagem principal              |
 | 📦 Pandas           | Manipulação e análise de dados   |
+| 🌐 Requests         | Acesso a dados via API           |
 | 📈 Matplotlib       | Criação de gráficos              |
-| 🧮 Jupyter Notebook | Ambiente interativo de análise   |
+| ☁️ Google Colab     | Ambiente interativo de análise   |
 | 🧾 IPython.display  | Geração automática de relatórios |
 
 ---
