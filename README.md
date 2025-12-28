@@ -3,7 +3,6 @@
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
 
 📧 E-mail: johnlenon8919@gmail.com
-
 🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
 🐙 GitHub: github.com/Johnsantos1989
 
