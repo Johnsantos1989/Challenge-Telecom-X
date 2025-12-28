@@ -97,6 +97,7 @@ A análise permite decisões estratégicas para reduzir churn, garantindo:
 
 ## 📂 Estrutura do Projeto
 
+```bash
 Projeto_EDA_TelecomX/
 │
 ├── data/              # Dados brutos e tratados
