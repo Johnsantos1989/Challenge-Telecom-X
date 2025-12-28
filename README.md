@@ -2,8 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Requests](https://img.shields.io/badge/Requests-API%20Access-blueviolet)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
