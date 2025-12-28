@@ -99,12 +99,13 @@ A análise permite decisões estratégicas para reduzir churn, garantindo:
 
 Projeto_EDA_TelecomX/
 │
-├─ data/              # Dados brutos e tratados
-├─ notebooks/         # Notebooks com análises
-├─ src/               # Scripts Python para limpeza e visualização
-├─ reports/           # Relatórios em Markdown/HTML
-├─ README.md          # Documentação principal
-└─ requirements.txt   # Dependências do projeto
+├── data/              # Dados brutos e tratados
+├── notebooks/         # Jupyter Notebooks com as análises
+├── src/               # Scripts Python para limpeza, transformação e visualização
+├── reports/           # Relatórios gerados em Markdown/HTML
+├── README.md          # Documentação principal do projeto
+└── requirements.txt   # Dependências do projeto
+
 
 👨🏻‍🦱 Autor
 
