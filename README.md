@@ -101,3 +101,11 @@ A análise permite decisões estratégicas para reduzir churn, garantindo:
 ---
 
 ## 📂 Estrutura do Projeto
+
+📊 Projeto_EDA_TelecomX/
+│── data/                  # Dados brutos e tratados
+│── notebooks/             # Google Colab Notebooks com análises
+│── src/                   # Scripts Python para limpeza e visualização
+│── reports/               # Relatórios gerados em Markdown/HTML
+│── README.md              # Documentação principal
+│── requirements.txt       # Dependências do projeto
