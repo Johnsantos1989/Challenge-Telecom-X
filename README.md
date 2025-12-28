@@ -1,88 +1,88 @@
-🚀 Telecom X – Análise de Evasão de Clientes (Churn)
-📌 Descrição do Projeto
+📊 Projeto de Análise Exploratória de Dados (EDA) – Telecom X
 
-Este projeto tem como objetivo analisar a evasão de clientes da Telecom X, identificando os principais fatores que levam ao churn (cancelamento de serviços).
-A partir da Análise Exploratória de Dados (EDA), geramos insights estratégicos que podem apoiar a criação de modelos preditivos e o desenvolvimento de ações eficazes de retenção de clientes.
+💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
 
-🎯 Objetivos da Análise
+📧 E-mail: johnlenon8919@gmail.com
 
-Coletar e tratar dados via API (requests) e pandas.
+🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
+🐙 GitHub: github.com/Johnsantos1989
 
-Aplicar técnicas de ETL para limpeza e transformação dos dados.
+Python | Pandas | Matplotlib | Jupyter | Licença
 
-Mapear dados categóricos (Yes/No → 1/0) e tratar valores nulos.
+🧠 Objetivo do Projeto
 
-Criar métricas derivadas (ex.: cobrança diária).
+A Telecom X enfrenta um alto índice de cancelamentos e deseja identificar os fatores que levam os clientes a encerrar seus serviços.
+O objetivo da análise é entender quais características impactam o churn, considerando:
 
-Realizar visualizações estratégicas com gráficos de barras, rosca e boxplots.
+💰 Cobrança mensal e total
+⭐ Tipo de contrato e fidelização
+🛠 Serviços de suporte contratados
+📈 Relação entre cobrança, serviços e evasão
+📊 Visualizações estratégicas para tomada de decisão
 
-Gerar insights acionáveis para reduzir churn e aumentar a retenção.
+🧩 Etapas da Análise
 
-📊 Principais Insights
-1️⃣ Proporção Geral de Churn
+🔹 1. Coleta e Consolidação dos Dados
+Dados importados de uma API JSON e convertidos em DataFrame do Pandas.
 
-Taxa de churn: ~{churn_pct_cancelados:.2f}%
+🔹 2. Limpeza e Transformação
 
-Insight: A evasão representa um problema relevante para receita e retenção.
+Remoção de registros vazios
 
-2️⃣ Churn por Tipo de Contrato
+Conversão de colunas para tipos numéricos
 
-Contrato com maior churn: {contrato_maior_churn} ({valor_maior_churn:.2f}%)
+Mapeamento de respostas Yes/No para 1/0
 
-Insight: Contratos de curto prazo têm menor fidelização e maior risco de cancelamento.
+Criação de métricas derivadas, como cobrança diária
 
-3️⃣ Churn vs Serviços de Suporte
+🔹 3. Análise Exploratória (EDA)
 
-Serviço com maior impacto: {servico_maior_risco} (diferença de {valor_maior_risco:.2f}% entre cancelados e ativos)
+Proporção geral de churn
 
-Insight: A ausência ou percepção de baixo valor desse serviço aumenta a probabilidade de churn.
+Taxa média de churn por tipo de contrato
 
-4️⃣ Churn vs Cobrança Mensal
+Churn por serviços de suporte
 
-Clientes que cancelaram: R$ {media_cancel:.2f}
+Relação entre cobrança mensal e churn
 
-Clientes que permaneceram: R$ {media_perm:.2f}
+🔹 4. Visualizações Estratégicas
 
-Insight: Cobranças mais altas podem contribuir para a evasão.
+Gráficos de barras, rosca e boxplots para insights claros
 
-🛠 Ferramentas e Bibliotecas
+Destaque para clientes com maior risco de cancelamento
 
-Python
+🔹 5. Relatórios Automáticos
 
-pandas, numpy
+Resumo de métricas e insights principais gerado em Markdown
 
-matplotlib, seaborn
+Identificação de pontos críticos para retenção de clientes
 
-requests
+📊 Principais Resultados
+Indicador	Descrição
+💰 Cobrança Mensal	Clientes que cancelaram pagam, em média, mais que os que permaneceram
+⭐ Tipo de Contrato	Contratos de curto prazo apresentam maior taxa de churn
+🛠 Serviços de Suporte	Serviço {servico_maior_risco} apresenta maior impacto na evasão
+📈 Proporção Geral	Taxa de churn geral: ~{churn_pct_cancelados:.2f}%
+⚠️ Recomendação	Focar em retenção de contratos de curto prazo e serviços críticos
+🎯 Conclusão
 
-IPython.display (para exibir relatórios e Markdown)
+A análise permite decisões estratégicas para reduzir churn, garantindo:
+✅ Maior retenção de clientes
+✅ Identificação de serviços críticos
+✅ Ajustes de cobrança e contratos estratégicos
 
-📂 Estrutura do Repositório
+📉 Recomendação final: priorizar clientes e serviços com maior risco de churn.
+💹 Foco em contratos de longo prazo e melhoria de serviços de suporte.
+
+🧰 Tecnologias Utilizadas
+Ferramenta	Função
+🐍 Python 3	Linguagem principal
+📦 Pandas	Manipulação e análise de dados
+📈 Matplotlib	Criação de gráficos e visualizações
+🧮 Jupyter Notebook	Ambiente interativo de desenvolvimento
+🧾 IPython.display	Geração automática do relatório final
+📂 Estrutura do Projeto
 /notebooks       - Notebooks com análise exploratória
 /data            - Dados coletados via API
 /figures         - Gráficos e visualizações
 README.md        - Este arquivo
-
-💻 Como Usar
-
-Clone o repositório:
-
-git clone https://github.com/usuario/repositorio.git
-
-
-Abra o notebook no Google Colab.
-
-Execute as células para reproduzir a análise e visualizar os gráficos.
-
-🚀 Próximos Passos
-
-Criar modelos preditivos de churn com base nas variáveis identificadas.
-
-Desenvolver estratégias de retenção focadas em contratos de curto prazo e serviços críticos.
-
-Ajustar preços ou benefícios para reduzir churn associado a cobranças mais altas.
-
-✅ Autor
-
-John Lenon Nogueira
-📅 Data: 2025
