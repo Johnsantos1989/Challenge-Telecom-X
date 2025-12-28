@@ -110,7 +110,7 @@ Projeto_EDA_TelecomX/
 
 John Lenon Nogueira
 
-📧 E-mail
+📧 johnlenon8919@gmail.com 
 
 🔗 LinkedIn
 
