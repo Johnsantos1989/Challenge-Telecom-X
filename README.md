@@ -97,7 +97,7 @@ A análise permite decisões estratégicas para reduzir churn, garantindo:
 
 ## 📂 Estrutura do Projeto
 
-``bash
+```bash
 Projeto_EDA_TelecomX/
 │
 ├── data/              # Dados brutos e tratados
@@ -107,11 +107,9 @@ Projeto_EDA_TelecomX/
 ├── README.md          # Documentação principal do projeto
 └── requirements.txt   # Dependências do projeto
 
-
 👨🏻‍🦱 Autor
-
 John Lenon Nogueira
 
-📧 **E-mail:** [johnlenon8919@gmail.com](mailto:johnlenon8919@gmail.com)  
-🔗 **LinkedIn:** [linkedin.com/in/analistafinanceiro-powerbi](https://www.linkedin.com/in/analistafinanceiro-powerbi/)  
-🐙 **GitHub:** [github.com/Johnsantos1989](https://github.com/Johnsantos1989) 
+📧 E-mail: johnlenon8919@gmail.com
+🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
+🐙 GitHub: github.com/Johnsantos1989
