@@ -11,6 +11,7 @@
 👨🏻‍🦱 Autor
 
 John Lenon Nogueira
+
 📧 **E-mail:** [johnlenon8919@gmail.com](mailto:johnlenon8919@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/analistafinanceiro-powerbi](https://www.linkedin.com/in/analistafinanceiro-powerbi/)  
 🐙 **GitHub:** [github.com/Johnsantos1989](https://github.com/Johnsantos1989)  
