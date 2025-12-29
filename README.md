@@ -106,10 +106,3 @@ Projeto_EDA_TelecomX/
 ├── reports/           # Relatórios gerados em Markdown/HTML
 ├── README.md          # Documentação principal do projeto
 └── requirements.txt   # Dependências do projeto
-
-👨🏻‍🦱 Autor
-John Lenon Nogueira
-
-📧 E-mail: johnlenon8919@gmail.com
-🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
-🐙 GitHub: github.com/Johnsantos1989
