@@ -9,6 +9,15 @@
 💡 Identificação dos principais fatores de evasão de clientes (Churn) para decisão estratégica de retenção.
 ---
 
+👨🏻‍🦱 Autor
+John Lenon Nogueira
+
+📧 E-mail: johnlenon8919@gmail.com
+🔗 LinkedIn: linkedin.com/in/analistafinanceiro-powerbi
+🐙 GitHub: github.com/Johnsantos1989
+
+---
+
 ## 🧠 Objetivo do Projeto
 
 A Telecom X enfrenta um alto índice de cancelamentos e deseja identificar os fatores que levam os clientes a encerrar seus serviços.  
